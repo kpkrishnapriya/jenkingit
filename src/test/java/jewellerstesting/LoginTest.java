@@ -58,6 +58,9 @@ public void login() throws InterruptedException {
 		}
 		
 	}
+	
+	
+	
 @AfterSuite
 public void drvierclose() {
 	driver.quit();
